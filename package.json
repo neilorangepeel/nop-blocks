@@ -1,0 +1,34 @@
+{
+	"name": "nop-blocks",
+	"version": "0.1.0",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update",
+		"start:animated-logo": "wp-scripts start blocks/animated-logo/src/index.js --output-path=blocks/animated-logo/build/",
+		"build:animated-logo": "wp-scripts build blocks/animated-logo/src/index.js --output-path=blocks/animated-logo/build/",
+		"start:dark-mode-toggle": "wp-scripts start blocks/dark-mode-toggle/src/index.js --output-path=blocks/dark-mode-toggle/build/",
+		"build:dark-mode-toggle": "wp-scripts build blocks/dark-mode-toggle/src/index.js --output-path=blocks/dark-mode-toggle/build/",
+		"start:post-format": "wp-scripts start blocks/post-format/src/index.js --output-path=blocks/post-format/build/",
+		"build:post-format": "wp-scripts build blocks/post-format/src/index.js --output-path=blocks/post-format/build/",
+		"start:project-type": "wp-scripts start blocks/project-type/src/index.js --output-path=blocks/project-type/build/",
+		"build:project-type": "wp-scripts build blocks/project-type/src/index.js --output-path=blocks/project-type/build/",
+		"start:profile-pic": "wp-scripts start blocks/profile-pic/src/index.js --output-path=blocks/profile-pic/build/",
+		"build:profile-pic": "wp-scripts build blocks/profile-pic/src/index.js --output-path=blocks/profile-pic/build/"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^8.0.5",
+		"@wordpress/blocks": "^11.1.4",
+		"@wordpress/i18n": "^4.2.4"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^19.2.2"
+	}
+}

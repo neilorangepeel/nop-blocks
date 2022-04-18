@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "nop-blocks/profile-pic",
+	"version": "0.1.0",
+	"title": "Profile Picture",
+	"icon": "admin-users",
+	"category": "widgets",
+	"description": "Displays profile pic and photo credit in a SVG mask.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "nop-blocks-profile-pic",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

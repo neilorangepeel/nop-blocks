@@ -1,0 +1,38 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "nop-blocks/project-type-block",
+	"version": "0.1.0",
+	"title": "Project Type",
+	"category": "widgets",
+	"description": "Display a work's project type",
+	"label": "Project Type",
+	"attributes": {
+		"term": {
+			"type": "string"
+		},
+		"textAlign": {
+			"type": "string"
+		},
+		"separator": {
+			"type": "string",
+			"default": ", "
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"color": {
+			"gradients": true,
+			"link": true
+		},
+		"typography": {
+			"lineHeight": true,
+			"fontSize": true,
+			"__experimentalFontWeight": true
+		}
+	},
+	"textdomain": "nop-blocks-project-type-block",
+	"style": "wp-block-post-terms",
+	"editorScript": "file:./build/index.js"
+}

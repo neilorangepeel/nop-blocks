@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-nop-blocks-dark-mode-toggle {
+	button {
+		-webkit-appearance: none;
+		border: none;
+		padding: 13px;
+		border-radius: 50%;
+		background: transparent;
+		cursor: pointer;
+
+		&:hover,
+		&:focus {
+			background: var(--wp--preset--color--ui);
+		}
+	}
+	svg {
+		display: block;
+	}
+}

@@ -1,0 +1,42 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./blocks/animated-logo/src/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-nop-blocks-animated-logo {
+  font-feature-settings: "ss02" 1;
+}
+.wp-block-nop-blocks-animated-logo:hover .nop-logo--icon, .wp-block-nop-blocks-animated-logo:focus .nop-logo--icon {
+  transition-delay: 0s;
+  stroke-dashoffset: 223;
+}
+.wp-block-nop-blocks-animated-logo:hover .nop-logo--lettering, .wp-block-nop-blocks-animated-logo:focus .nop-logo--lettering {
+  opacity: 1;
+  transition-delay: 0.9s;
+}
+.wp-block-nop-blocks-animated-logo:focus {
+  background: var(--ui-hover);
+  outline-offset: -1px;
+}
+.wp-block-nop-blocks-animated-logo a, .wp-block-nop-blocks-animated-logo svg {
+  display: block;
+  text-decoration: none;
+}
+
+.nop-logo--icon {
+  stroke-dasharray: 223;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.nop-logo--lettering {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  transition-delay: 0s;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

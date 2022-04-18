@@ -1,0 +1,25 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./blocks/dark-mode-toggle/src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-nop-blocks-dark-mode-toggle button {
+  -webkit-appearance: none;
+  border: none;
+  padding: 13px;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+.wp-block-nop-blocks-dark-mode-toggle button:hover, .wp-block-nop-blocks-dark-mode-toggle button:focus {
+  background: var(--wp--preset--color--ui);
+}
+.wp-block-nop-blocks-dark-mode-toggle svg {
+  display: block;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

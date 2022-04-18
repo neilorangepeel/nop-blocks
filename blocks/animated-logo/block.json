@@ -1,0 +1,16 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "nop-blocks/animated-logo",
+	"version": "0.1.0",
+	"title": "Animated Logo",
+	"category": "widgets",
+	"description": "Animation logo block for neilorangepeel.com",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "nop-blocks-animated-logo",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

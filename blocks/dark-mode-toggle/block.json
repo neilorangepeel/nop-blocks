@@ -1,0 +1,16 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "nop-blocks/dark-mode-toggle",
+	"version": "0.1.0",
+	"title": "Dark mode toggle",
+	"category": "widgets",
+	"description": "Toggle switch for dark mode",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "nop-blocks-dark-mode-toggle",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
