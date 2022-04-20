@@ -25,7 +25,7 @@ import { useBlockProps } from '@wordpress/block-editor';
 export default function save() {
 	return (
 		<div {...useBlockProps.save()}>
-			<a href="http://neilorangepeelfse.local/">
+			<a href="/">
 				<svg class="nop-logo" width="110" height="110" viewBox="0 0 110 110">
 					<text class="nop-logo--lettering" fill="var(--wp--preset--color--foreground)" font-family="Brandon Text" font-size="15" letter-spacing="-.3" transform="rotate(-45 54.5 54.5)">
 								<tspan x="-6.57" y="60">neilorangepeel.com</tspan>
