@@ -62,7 +62,7 @@ function Edit() {
     class: "screen-reader-text toggle-button__text js-color-mode-toggle-text"
   }, "Enable dark mode"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", {
     class: "toggle-button__icon",
-    fill: "var(--wp--preset--color--foreground)",
+    fill: "var(--wp--preset--color--contrast)",
     "aria-hidden": "true",
     width: "20",
     height: "20",
@@ -84,7 +84,7 @@ function Edit() {
   \***********************************************/
 /***/ (function() {
 
-console.log("Hello, World!");
+
 
 /***/ }),
 
@@ -223,7 +223,7 @@ function save() {
     class: "screen-reader-text toggle-button__text js-color-mode-toggle-text"
   }, "Enable dark mode"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", {
     class: "toggle-button__icon",
-    fill: "var(--wp--preset--color--foreground)",
+    fill: "var(--wp--preset--color--contrast)",
     "aria-hidden": "true",
     width: "20",
     height: "20",
