@@ -19,7 +19,7 @@
   transition-delay: 0.9s;
 }
 .wp-block-nop-blocks-animated-logo:focus {
-  background: var(--ui-hover);
+  background: var(--wp--preset--color--contrast);
   outline-offset: -1px;
 }
 .wp-block-nop-blocks-animated-logo a, .wp-block-nop-blocks-animated-logo svg {

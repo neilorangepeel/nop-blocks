@@ -19,7 +19,7 @@
 		}
 	}
 	&:focus {
-		background: var(--ui-hover);
+		background: var(--wp--preset--color--contrast);
 		outline-offset: -1px;
 	}
 	a, svg {

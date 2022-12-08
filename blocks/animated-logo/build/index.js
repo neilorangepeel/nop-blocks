@@ -60,7 +60,7 @@ function Edit() {
     viewBox: "0 0 110 110"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("text", {
     class: "nop-logo--lettering",
-    fill: "var(--wp--preset--color--foreground)",
+    fill: "var(--wp--preset--color--contrast)",
     "font-family": "Brandon Text",
     "font-size": "15",
     "letter-spacing": "-.3",
@@ -70,7 +70,7 @@ function Edit() {
     y: "60"
   }, "neilorangepeel.com")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
     class: "nop-logo--icon",
-    stroke: "var(--wp--preset--color--foreground)",
+    stroke: "var(--wp--preset--color--contrast)",
     "stroke-width": "2.3",
     fill: "none",
     d: "M55 20a35 35 0 1 1 0 70h-6.36A28.64 28.64 0 0 1 20 61.36V55a35 35 0 0 1 35-35Zm0 6.36A28.64 28.64 0 0 0 26.36 55v6.36c0 12.3 9.98 22.28 22.28 22.28H55a28.64 28.64 0 0 0 0-57.28Zm0 6.37a22.27 22.27 0 1 1 0 44.54 22.27 22.27 0 0 1 0-44.54Zm0 6.36a15.9 15.9 0 1 0 0 31.82 15.9 15.9 0 0 0 0-31.82Zm.09 6.45a9.55 9.55 0 0 1 9.54 9.55 3.18 3.18 0 1 1-6.36 0 3.18 3.18 0 1 0-6.36 0 3.18 3.18 0 0 1-6.37 0 9.55 9.55 0 0 1 9.55-9.55Z"
@@ -209,7 +209,7 @@ function save() {
     viewBox: "0 0 110 110"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("text", {
     class: "nop-logo--lettering",
-    fill: "var(--wp--preset--color--foreground)",
+    fill: "var(--wp--preset--color--contrast)",
     "font-family": "Brandon Text",
     "font-size": "15",
     "letter-spacing": "-.3",
@@ -219,7 +219,7 @@ function save() {
     y: "60"
   }, "neilorangepeel.com")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
     class: "nop-logo--icon",
-    stroke: "var(--wp--preset--color--foreground)",
+    stroke: "var(--wp--preset--color--contrast)",
     "stroke-width": "2.3",
     fill: "none",
     d: "M55 20a35 35 0 1 1 0 70h-6.36A28.64 28.64 0 0 1 20 61.36V55a35 35 0 0 1 35-35Zm0 6.36A28.64 28.64 0 0 0 26.36 55v6.36c0 12.3 9.98 22.28 22.28 22.28H55a28.64 28.64 0 0 0 0-57.28Zm0 6.37a22.27 22.27 0 1 1 0 44.54 22.27 22.27 0 0 1 0-44.54Zm0 6.36a15.9 15.9 0 1 0 0 31.82 15.9 15.9 0 0 0 0-31.82Zm.09 6.45a9.55 9.55 0 0 1 9.54 9.55 3.18 3.18 0 1 1-6.36 0 3.18 3.18 0 1 0-6.36 0 3.18 3.18 0 0 1-6.37 0 9.55 9.55 0 0 1 9.55-9.55Z"
